@@ -1,6 +1,6 @@
 import pygame
 
-pygame.int()
+pygame.init()
 
 LARGURA, ALTURA = 720, 720
 screen = pygame.display.set_mode((LARGURA, ALTURA))

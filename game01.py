@@ -13,7 +13,7 @@ running = True
 while running:
     for evento in pygame.event.get():
         if evento.type == pygame.QUIT:
-        running = False
+            running = False
 
     # Atualizando a tela
     pygame.display.flip()
